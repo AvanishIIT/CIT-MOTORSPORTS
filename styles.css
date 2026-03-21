@@ -743,16 +743,15 @@ a {
   line-height: 1.9;
 }
 
-.map-placeholder {
+.map-frame {
+  width: 100%;
   min-height: 14rem;
-  display: grid;
-  place-items: center;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
+  border: 0;
   border-radius: 1rem;
-  border: 1px dashed rgba(255, 255, 255, 0.18);
-  color: var(--muted);
   background: rgba(255, 255, 255, 0.03);
 }
+
 
 .feedback-section {
   padding-bottom: 5rem;
@@ -1679,9 +1678,10 @@ body {
   padding: 0.9rem;
 }
 
-.map-placeholder {
+.map-frame {
   min-height: 9rem;
 }
+
 
 .feedback-section {
   padding-bottom: 2.1rem;
