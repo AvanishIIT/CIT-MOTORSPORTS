@@ -417,27 +417,111 @@
           </div>
         </section>
 
-        <section class="section" id="gallery">
-          <div class="section-backdrop section-backdrop-right" aria-hidden="true"></div>
-          <div class="section-heading split">
-            <div>
-              <span class="section-tag">Media</span>
-              <h2>Gallery</h2>
-            </div>
-            <p>
-              Use this section for event photos, fabrication shots, racing
-              moments, and videos from previous years to the present.
-            </p>
-          </div>
+       <section class="section" id="gallery">
+  <div class="section-backdrop section-backdrop-right" aria-hidden="true"></div>
+  <div class="section-heading split">
+    <div>
+      <span class="section-tag">Media</span>
+      <h2>Gallery</h2>
+    </div>
+    <p>
+      Use this section for event photos, fabrication shots, racing
+      moments, and videos from previous years to the present.
+    </p>
+  </div>
 
-          <div class="gallery-grid">
-            <div class="gallery-tile wide"><span>Workshop Builds</span></div>
-            <div class="gallery-tile"><span>Track Day</span></div>
-            <div class="gallery-tile"><span>Team Portraits</span></div>
-            <div class="gallery-tile"><span>Vehicle Launches</span></div>
-            <div class="gallery-tile wide"><span>Competition Highlights</span></div>
+  <div class="gallery-tabs" role="tablist" aria-label="Gallery categories">
+    <button class="gallery-tab is-active" type="button" data-gallery-target="team-portraits">
+      Team Portraits
+    </button>
+    <button class="gallery-tab" type="button" data-gallery-target="workshop-builds">
+      Workshop Builds
+    </button>
+    <button class="gallery-tab" type="button" data-gallery-target="team-highlights">
+      Team Highlights
+    </button>
+  </div>
+
+  <div class="gallery-panels">
+    <section class="gallery-panel is-active" data-gallery-panel="team-portraits">
+      <div class="gallery-media-grid">
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Team Portrait 01</div>
+          <div class="gallery-media-meta">
+            <h3>Team Portrait 01</h3>
+            <p>Add your team group image here.</p>
           </div>
-        </section>
+        </article>
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Team Portrait 02</div>
+          <div class="gallery-media-meta">
+            <h3>Team Portrait 02</h3>
+            <p>Add another official team portrait here.</p>
+          </div>
+        </article>
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Team Portrait Video</div>
+          <div class="gallery-media-meta">
+            <h3>Portrait Video</h3>
+            <p>Add a short team introduction or lineup video.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-panel" data-gallery-panel="workshop-builds">
+      <div class="gallery-media-grid">
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Workshop Photo 01</div>
+          <div class="gallery-media-meta">
+            <h3>Fabrication Bay</h3>
+            <p>Chassis work, assembly, or CAD-to-build moments.</p>
+          </div>
+        </article>
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Workshop Photo 02</div>
+          <div class="gallery-media-meta">
+            <h3>Build Process</h3>
+            <p>Highlight machining, welding, inspection, or testing.</p>
+          </div>
+        </article>
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Workshop Video</div>
+          <div class="gallery-media-meta">
+            <h3>Workshop Video</h3>
+            <p>Add a workshop walk-through or build montage.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-panel" data-gallery-panel="team-highlights">
+      <div class="gallery-media-grid">
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Highlight Photo 01</div>
+          <div class="gallery-media-meta">
+            <h3>Competition Highlight</h3>
+            <p>Add your best event-day or podium moment here.</p>
+          </div>
+        </article>
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Highlight Photo 02</div>
+          <div class="gallery-media-meta">
+            <h3>Track Moment</h3>
+            <p>Use this for race-day action or presentation shots.</p>
+          </div>
+        </article>
+        <article class="gallery-media-card">
+          <div class="gallery-media-thumb">Add Highlight Video</div>
+          <div class="gallery-media-meta">
+            <h3>Highlight Reel</h3>
+            <p>Add a team reel, event recap, or promo clip.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+</section>
 
         <section class="section contact-section" id="contact">
           <div class="section-backdrop section-backdrop-left" aria-hidden="true"></div>
