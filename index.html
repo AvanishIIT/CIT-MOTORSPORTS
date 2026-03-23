@@ -664,38 +664,54 @@
 </div>
  </section>
 
-        <section class="section feedback-section" id="feedback">
-          <div class="section-backdrop section-backdrop-right" aria-hidden="true"></div>
-          <div class="section-heading split">
-            <div>
-              <span class="section-tag">Connect</span>
-              <h2>Feedback</h2>
+          <section class="section feedback-section" id="feedback">
+            <div class="section-backdrop section-backdrop-right" aria-hidden="true"></div>
+            <div class="section-heading split">
+              <div>
+                <span class="section-tag">Connect</span>
+                <h2>Feedback</h2>
+              </div>
             </div>
-          </div>
+  
+            <form
+              class="feedback-form"
+             action="https://formsubmit.co/citmotorsports10@gmail.com"
+            method="POST"
+            >
+          <input type="hidden" name="_subject" value="New CIT Motorsports Feedback Submission" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_next" value="https://your-vercel-domain.vercel.app/#feedback" />
+          <input type="text" name="_honey" style="display:none" />
 
-          <form class="feedback-form">
-            <label>
-              Name
-              <input type="text" name="name" placeholder="Your name" />
-            </label>
-            <label>
-              Mail
-              <input type="email" name="email" placeholder="you@example.com" />
-            </label>
-            <label>
-              Subject
-              <input type="text" name="subject" placeholder="Reason for reaching out" />
-            </label>
-            <label>
-              Message
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="Write your message here"
-              ></textarea>
-            </label>
-            <button class="button button-primary" type="submit">Submit Feedback</button>
-          </form>
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+  <label>
+    Mail
+    <input type="email" name="email" placeholder="you@example.com" required />
+  </label>
+
+  <label>
+    Subject
+    <input type="text" name="subject" placeholder="Reason for reaching out" required />
+  </label>
+
+  <label>
+    Message
+    <textarea
+      name="message"
+      rows="5"
+      placeholder="Write your message here"
+      required
+    ></textarea>
+  </label>
+
+  <button class="button button-primary" type="submit">Submit Feedback</button>
+</form>
+
         </section>
       </main>
 
