@@ -20,9 +20,13 @@ navItems.forEach((item) => {
 });
 
 if (feedbackForm) {
-  feedbackForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    window.alert("Feedback form UI is ready. Connect it to a backend or form service to collect responses.");
+  feedbackForm.addEventListener("submit", () => {
+    const submitButton = feedbackForm.querySelector('button[type="submit"]');
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Sending...";
+    }
   });
 }
 
